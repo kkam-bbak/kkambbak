@@ -10,14 +10,14 @@
 ### 🚀 feature/*
 - 새로운 기능 개발 시 사용
 - `from`: `develop` → `to`: `develop`
-- 예: `feature/study`
-- 예: `feature/auth-login`
+- 예: `feature/REQ-0001`
+- 예: `feature/REQ-0005`
 
 ### 🐞 fix/*
 - 버그 수정 시 사용
 - `from`: `develop` → `to`: `develop`
-- 예: `fix/signup`
-- 예: `feature/learning-record`
+- 예: `fix/REQ-0003`
+- 예: `feature/REQ-0007`
 
 ## 🔁 Merge Rule
 - 모든 작업 브랜치는 **`develop` 브랜치로 병합**하는 것을 원칙으로 합니다.
@@ -32,7 +32,4 @@
 - 브랜치 유형 접두사로 시작:
   - `feature/`
   - `fix/`
-- 형식: `<type>/<category>` 또는 `<type>/<category>-<description>`
-  - 예: `feature/auth-google-login` (권장, 필수 아님)
-  - 예: `fix/learning-grading-bug` (권장, 필수 아님)
-  - 예: `feature/login` (간단한 형태도 가능)
+- 형식: `<type>/<요구사항 ID >`
